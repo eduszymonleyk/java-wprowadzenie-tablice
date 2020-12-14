@@ -43,5 +43,18 @@ class Cross{
 		
 		// długość trzeciego słowa
 		System.out.println("Długość trzeciego słowa: "+tab[2].length);
+		
+		// zamiana 'woda' => 'wody'
+		tab[2][3] = 'y';
+		
+		
+		// wyświetlenie krzyżówki
+		System.out.println("-------");
+		System.out.println(tab[0][0]+" "+tab[0][1]+" "+tab[0][2]);
+		System.out.println("-------------------");
+		System.out.println(tab[1][0]+" "+tab[1][1]+" "+tab[1][2]+" "+tab[1][3]+" "+tab[1][4]+" "+tab[1][5]+" "+tab[1][6]+" "+tab[1][7]+" "+tab[1][8]);
+		System.out.println("-------------------");
+		System.out.println(tab[2][0]+" "+tab[2][1]+" "+tab[2][2]+" "+tab[2][3]);
+		System.out.println("---------");
 	}
 }
